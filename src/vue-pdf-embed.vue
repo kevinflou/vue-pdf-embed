@@ -82,6 +82,7 @@ export default {
             canvas.height = viewport.height
             canvas.style.width = '100%'
             canvas.style.height = '100%'
+            canvas.style.margin = '15px 0px 15px 0px'
 
             await page.render({
               canvasContext: canvas.getContext('2d'),
